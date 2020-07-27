@@ -1,0 +1,285 @@
+.pics {
+  top: 0;
+  width: 100%;
+  height: 800px;
+  /* background-image: linear-gradient(
+      rgba(0, 255, 136, 0.473),
+      rgba(255, 255, 0, 0.473)
+    ),
+    url("../Image/contact.jpg"); */
+  background-size: cover;
+  /* clip-path: polygon(0% 0%, 100% 0, 750px 100%, 750px 100%); */
+}
+
+.carousels {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.carousels h1 {
+  position: absolute;
+  /* color: rgba(202, 137, 17); */
+  color: whitesmoke;
+  font-size: 45px;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 20%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 60%;
+}
+.carousels h4 {
+  position: absolute;
+  color: rgb(160, 144, 54);
+  z-index: 999;
+  font-size: 25px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 60%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 60%;
+}
+.div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* border: tomato solid 2px; */
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: grey solid 1px;
+}
+.div1 {
+  padding: 5px;
+  background-color: wheat;
+  margin-right: 20px;
+}
+.div2 {
+  padding: 5px;
+  background-color: wheat;
+  margin-left: 20px;
+}
+.div1:hover {
+  padding: 15px;
+  background-color: white;
+}
+.div2:hover {
+  padding: 15px;
+  background-color: white;
+}
+.cards-value {
+  padding-left: 25px;
+  margin-top: 10rem;
+  margin-left: 100px;
+
+  border-bottom: grey solid 1px;
+}
+.div3 {
+  padding: 5px;
+  background-color: wheat;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+.div4 {
+  margin-top: 40px;
+  padding: 5px;
+  background-color: wheat;
+  margin-left: 20px;
+}
+.div4 img {
+  width: 500px;
+  height: 220px;
+}
+.div3:hover {
+  padding: 10px;
+  background-color: white;
+}
+.div4 img:hover {
+  width: 490px;
+  height: 210px;
+}
+.client-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  /* border-bottom: grey solid 1px; */
+}
+.client {
+  border-top: grey solid 1px;
+}
+.picss {
+  margin-top: 40px;
+  margin-left: 20%;
+  height: 200px;
+  width: 500px;
+  margin-bottom: 30px;
+}
+.picsd {
+  margin-top: 40px;
+  margin-left: 40px;
+  height: 200px;
+  width: 400px;
+  margin-bottom: 30px;
+}
+.pictures {
+  height: 100%;
+  width: 100%;
+}
+
+.picture {
+  height: 150px;
+  width: 200px;
+}
+.client-div {
+  border: grey solid 1px;
+  background-color: white;
+}
+.client-div:hover {
+  background-color: black;
+  color: black;
+}
+.heading {
+  text-align: center;
+  font-size: 50px;
+}
+.contact {
+  text-align: center;
+
+  border-radius: 20px;
+  background-color: violet;
+  height: 200px;
+  border-bottom: grey solid 1px;
+
+  margin-bottom: 50px;
+}
+.button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* margin-right: 100px; */
+}
+.contact h2 {
+  padding-top: 50px;
+}
+
+@media (min-width: 775px) and (max-width: 990px) {
+  .cards-value {
+    /* padding-left: 25px; */
+    margin-top: 10rem;
+    margin-left: 40%;
+  }
+
+  .carousels h1 {
+    position: absolute;
+    /* color: rgba(202, 137, 17); */
+    color: whitesmoke;
+    font-size: 35px;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 20%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%;
+  }
+  .divs {
+    margin-bottom: 20px;
+    /* border-bottom: grey solid 1px; */
+  }
+  .divs p {
+    font-size: 20px;
+  }
+  .picss {
+    border-top: grey solid 1px;
+    height: 300px;
+    width: 450px;
+  }
+  .picss h1 {
+    text-align: center;
+  }
+  .picss p {
+    text-align: center;
+  }
+  .picsd {
+    padding-left: 20%;
+    margin-top: 50px;
+
+    padding-bottom: 30px;
+  }
+  .pics {
+    top: 0;
+    width: 100%;
+    height: 550px;
+    /* background-image: linear-gradient(
+        rgba(0, 255, 136, 0.473),
+        rgba(255, 255, 0, 0.473)
+      ),
+      url("../Image/contact.jpg"); */
+    background-size: cover;
+    /* clip-path: polygon(0% 0%, 100% 0, 750px 100%, 750px 100%); */
+  }
+  .dj {
+    margin-left: 20%;
+  }
+}
+@media (max-width: 775px) {
+  .client-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: grey solid 1px;
+  }
+
+  .divs {
+    margin-bottom: 20px;
+    border-bottom: grey solid 1px;
+  }
+  .divs p {
+    font-size: 15px;
+  }
+  .picss {
+    height: 300px;
+    width: 300px;
+  }
+  .picss h1 {
+    text-align: center;
+  }
+  .picss p {
+    text-align: left;
+  }
+  .picsd {
+    /* padding-left: 40px; */
+    padding-bottom: 30px;
+  }
+  .pics {
+    top: 0;
+    width: 100%;
+    height: 400px;
+    /* background-image: linear-gradient(
+        rgba(0, 255, 136, 0.473),
+        rgba(255, 255, 0, 0.473)
+      ),
+      url("../Image/contact.jpg"); */
+    background-size: cover;
+    /* clip-path: polygon(0% 0%, 100% 0, 750px 100%, 750px 100%); */
+  }
+  .carousels h1 {
+    position: absolute;
+    /* color: rgba(202, 137, 17); */
+    color: whitesmoke;
+    font-size: 25px;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 20%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%;
+  }
+}

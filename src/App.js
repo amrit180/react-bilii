@@ -1,13 +1,14 @@
 import React from 'react';
 import Footer from "./components/Footer"
 import './App.css';
-import Contactus from './components/Contactus';
+
+import About from './components/About';
 
 
 function App() {
   return (
     <div className="App">
-      <Contactus />
+      <About />
       <Footer />
     </div>
   );
