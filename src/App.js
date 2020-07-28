@@ -1,15 +1,23 @@
 import React from 'react';
-import Footer from "./components/Footer"
+
 import './App.css';
 
-import About from './components/About';
+
+import List from './components/List';
 
 
 function App() {
   return (
     <div className="App">
-      <About />
-      <Footer />
+      {/* <About />
+      <Footer /> */}
+      <List details="amritanshu singh" />
+      <List details="amritanshu singh" />
+      <List details="kislay vats" />
+      <List details="amritanshu singh" />
+      <List details="amritanshu singh" />
+      <List details="amritanshu singh" />
+      <List details="amritanshu singh" />
     </div>
   );
 }
