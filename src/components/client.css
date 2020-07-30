@@ -1,0 +1,117 @@
+.loaderclient {
+  position: relative;
+  display: flex;
+}
+/* @media(max-width:600px){
+    .loaderclient{
+  
+    }
+} */
+.loaderclient span {
+  width: 80px;
+  min-height: 300px;
+  margin: 20px 20px;
+  background-color: rgba(2255, 255, 255, 0.2);
+  box-shadow: 0 2px 0 rgba(2255, 255, 255, 0.2),
+    inset 2px 0 rgba(2255, 255, 255, 0.2);
+  animation: animatethis 2s linear infinite;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.loaderclient span p {
+  color: white;
+  text-align: center;
+  padding-left: 18px;
+}
+
+.loaderclient span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.loaderclient span:nth-child(2) {
+  animation-delay: 0.4s;
+  width: 20px;
+}
+
+.loaderclient span:nth-child(3) {
+  animation-delay: 0.8s;
+}
+
+.loaderclient span:nth-child(4) {
+  animation-delay: 1.2s;
+}
+
+.loaderclient span:nth-child(5) {
+  animation-delay: 1.6s;
+
+  width: 600px;
+  background-color: rgb(191, 189, 184);
+  animation: client 2s ease-in;
+  text-align: center;
+  font-weight: 600;
+}
+
+.loaderclient span:nth-child(6) {
+  animation-delay: 2s;
+}
+
+.loaderclient span:nth-child(7) {
+  animation-delay: 2.4s;
+}
+
+.loaderclient span:nth-child(8) {
+  animation-delay: 2.8s;
+  width: 50px;
+}
+
+@media (max-width: 600px) {
+  .loaderclient span:nth-child(1),
+  .loaderclient span:nth-child(2),
+  .loaderclient span:nth-child(3),
+  .loaderclient span:nth-child(4),
+  .loaderclient span:nth-child(6),
+  .loaderclient span:nth-child(7),
+  .loaderclient span:nth-child(8),
+  .loaderclient span:nth-child(9) {
+    display: none;
+  }
+}
+
+@keyframes animatethis {
+  0% {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transform: translateX(-50px) scale(1);
+  }
+  50% {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transform: translateX(0px) scale(1.2);
+  }
+  100% {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+    transform: translateX(50px) scale(1);
+  }
+}
+
+@keyframes client {
+  0% {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transform: translateX(-50px) scale(1.12);
+  }
+  50% {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transform: translateX(0px) scale(1.2);
+  }
+  100% {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+    transform: translateX(50px) scale(1.12);
+  }
+}

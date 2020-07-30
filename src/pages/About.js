@@ -8,36 +8,36 @@ import finance from '../Image/finance.jpg'
 import human from '../Image/human.jpg'
 import marketing from '../Image/marketing.jpg'
 import Business from '../Image/Business.jpg'
-import Card from './Card'
+import Card from '../components/Card'
 import red from '../Image/redhat.png'
 import progress from '../Image/Progress.png'
 import eight from '../Image/eight.png'
 import mitel from '../Image/Mitel-logo.png'
 import sage from '../Image/sage-logo.jpg'
 import zen from '../Image/zendesk_logo.png'
-import Button from './Button'
+import Button from '../components/Button'
 import { Row, Col } from 'react-flexbox-grid'
 
 export default function About() {
     return (
         <div>
-            <div className="carousels">
-                <img className="pics" src={about} alt="pic" />
+            <div className="carousels1">
+                <img className="pics1" src={about} alt="pic1" />
                 <h1>About VenaliciumB2B<br />Digital</h1>
 
             </div>
-            <div className="container">
-                <div className="div">
-                    <div className="div1">
+            <div className="container1">
+                <div className="div1">
+                    <div className="div11">
                         <h1>Just the B2B Facts</h1>
                         <p>Venalicium Digital is a data-driven demand generation partner created by industry pioneers who have set the standards for quality lead generation programs over the past three decades. We provide full-funnel, flexible and scalable solutions to target in-market technology buyers and positively impact sales and marketing ROI.</p>
                     </div>
-                    <div className="div2">
+                    <div className="div22">
                         <h1>Uncovering In-Market Buyers</h1>
                         <p>Venalicium Digital is a data-driven marketing platform that offers lead generation and data services that accelerate the technology sales process by identifying intent among technology buyers. Founded in 2009, Venalicium Digital B2B helps marketers meet the ever-changing demands of B2B sales.</p>
                     </div>
                 </div>
-                <div className="cards-value">
+                <div className="cards-value1">
                     <Row between="xs" >
                         <Col xs={12} sm={12} md={12} lg={4} >
                             <div> <Card image={it} title="IT" info="33.9 Million IT Technology Buyers" className="dj" /></div>
@@ -73,35 +73,33 @@ export default function About() {
 
 
                 </div>
-                <div className="divs">
+                <div className="divs1">
 
-                    <Row between="xs">
-                        <Col xs={12} sm={12} md={12} lg={6} ><div className="picss"><h1>Data drives demand</h1>
-                            <p>With several innovative approaches across lead generation,<br /> digital marketing, account-based marketing and database marketing,<br /> venalicium digital provides flexible, scalable solutions for marketers across several vertical markets.<br /> venalicium digital solutions leverage an audience of more than 10 million enterprise and SMB buyers <br />and offer unprecedented depth of detail and extremely high-quality data.</p>
-                        </div> </Col>
-                        <Col xs={12} sm={12} md={12} lg={6} > <div className="picsd" ><img className="pictures" src={contact} alt="pic" /> </div></Col>
-
-                    </Row>
-
-
+                    <h1>Data drives demand</h1>
+                    <p>With several innovative approaches across lead generation,<br /> digital marketing, account-based marketing and database marketing,<br /> venalicium digital provides flexible, scalable solutions for marketers across several vertical markets.<br /> venalicium digital solutions leverage an audience of more than 10 million enterprise and SMB buyers <br />and offer unprecedented depth of detail and extremely high-quality data.</p>
                 </div>
-                <div className="client">
-                    <h1 className="heading">Our Client</h1>
-                    <p>Thanks to these and many other fabulous clients, we’ve been recognized as one of the fastest growing B2B marketing companies in the United States for the past two years.</p>
-                    <div className="client-grid">
-                        <div className="client-div"><img className="picture" src={red} alt="e" /></div>
-                        <div className="client-div"><img className="picture" src={progress} alt="e" /></div>
-                        <div className="client-div"><img className="picture" src={sage} alt="e" /></div>
-                        <div className="client-div"><img className="picture" src={zen} alt="e" /></div>
-                        <div className="client-div"><img className="picture" src={eight} alt="e" /></div>
-                        <div className="client-div"><img className="picture" src={mitel} alt="e" /></div>
-                    </div>
-                </div>
-                <div className="contact">
-                    <h2>To learn more about our audience and product offerings,</h2>
-                    <div className="button"> <Button title="Contact Us" /></div>
+                <div className="picsd" ><img className="pictures" src={contact} alt="pic" /> </div>
+
+
+
+            </div>
+            <div className="client1">
+                <h1 className="heading1">Our Client</h1>
+                <p>Thanks to these and many other fabulous clients, we’ve been recognized as one of the fastest growing B2B marketing companies in the United States for the past two years.</p>
+                <div className="client-grid1">
+                    <div className="client-div"><img className="picture12" src={red} alt="e" /></div>
+                    <div className="client-div"><img className="picture12" src={progress} alt="e" /></div>
+                    <div className="client-div"><img className="picture12" src={sage} alt="e" /></div>
+                    <div className="client-div"><img className="picture12" src={zen} alt="e" /></div>
+                    <div className="client-div"><img className="picture12" src={eight} alt="e" /></div>
+                    <div className="client-div"><img className="picture12" src={mitel} alt="e" /></div>
                 </div>
             </div>
+            <div className="contact1">
+                <h2>To learn more about our audience and product offerings,</h2>
+                <div className="button1"> <Button title="Contact Us" /></div>
+            </div>
         </div>
+
     )
 }

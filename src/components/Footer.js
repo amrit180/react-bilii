@@ -61,11 +61,11 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footer-bottom">
-                <div className="copy">&copy;<script>document.write(new Date().getFullYear());</script> Venalicium Digital 2020. All Right Reserved. | Designed by Bili
+                <div className="copy">&copy;<script>document.write(new Date().getFullYear());</script> Venalicium Digital 2020. All Right Reserved.
 
                 </div>
                 <div className="footer-bottom2">
-                    <div className="copy">  Design | Developed And  Maintained by <a className="bili-link" href="https://www.bili.co.in"> Bili Pvt. Ltd. </a>
+                    <div className="copy"> Design | Developed And  Maintained by <a className="bili-link" href="https://www.bili.co.in"> Bili Pvt. Ltd. </a>
 
                     </div>
                 </div>

@@ -1,0 +1,164 @@
+.containerbox{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+}
+
+.containerbox .boxes{
+   position: relative;
+   width: 250px;
+   height: 500px;
+   background-color: #ccc;
+   transition: 0.5s;
+}
+.boxes .thumb img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width:100px;
+   height: 200px;
+}
+/* @media(max-width:600px){
+    .containerbox{
+        left: 2%;
+    }
+    .containerbox .boxes{
+        width: 200px;
+    }
+} */
+.containerbox .boxes:hover{
+transform: scale(1.1);
+z-index: 1;
+box-shadow:0 5px 20px rgba(0,0,0,1) ;
+}
+.containerbox .boxes .thumb{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.containerbox .boxes:nth-child(odd) .thumb{
+bottom: 0;
+left: 0;
+}
+
+.containerbox .boxes .thumb img{
+    width: 100px;
+}
+.containerbox .boxes .details{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    background-color: #262626;
+}
+
+.containerbox .boxes:nth-child(even) .details{
+    bottom: 0;
+    left: 0;
+    }
+
+    .containerbox .boxes:nth-child(1) .details{
+        background-color: #8553cb;
+    }
+    .containerbox .boxes:nth-child(2) .details{
+        background-color: #fe8f01;
+    }
+    .containerbox .boxes:nth-child(3) .details{
+        background-color: #79d400;
+    }
+    .containerbox .boxes:nth-child(4) .details{
+        background-color: #ff3b34;
+    }
+    .containerbox .boxes:nth-child(5) .details{
+        background-color: #910f03;
+    }
+    .containerbox .boxes:nth-child(6) .details{
+        background-color: #039153;
+    }
+    .containerbox .boxes .details .content{
+     position: relative;
+     top: calc(50% + 16px);
+     transform: translateY(-50%);
+     width: 100%;
+     padding: 20px;
+     text-align: center;
+     box-sizing: border-box;
+     transition: .5s;
+    }
+    .containerbox .boxes:hover .details .content{
+top:calc(50%);
+    }
+    .containerbox .boxes .details .content .fas{
+        font-size: 80px;
+        color: #fff;
+    }
+
+ .containerbox .boxes .details .content h3{
+      margin: 0;
+      padding: 0;
+      padding: 10px 0;
+      color: #fff;
+    }
+    .containerbox .boxes .details .content a{
+    display: inline-block;
+    padding:5px 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 20px;
+    transform: scale(0);
+    }
+    .containerbox .boxes:hover .details .content a{
+transform: scale(1);
+    }
+    .containerbox .boxes .details .content a:hover{
+        background-color: #fff;
+        color: #262626;
+    }
+    
+    @media(max-width:1000px){
+        .containerbox{
+            width: 100%;
+            height: auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .containerbox .boxes{
+            height: 250px;
+
+        }
+        .containerbox .boxes .thumb{
+            display: none;
+        }
+    }
+    @media(max-width:768px){
+     .containerbox{
+         display: initial;
+     }   
+     .containerbox .boxes{
+         width: 50%;
+         height: 250px;
+         float: left;
+     }
+    }
+
+    @media(max-width:480px){
+        .containerbox{
+            top: 0;
+            left: 0;
+            transform: translate(0);
+        }   
+        .containerbox .boxes{
+            width: 100%;
+            height: 250px;
+            float: left;
+        }
+       }
+       .details .content .far{
+           font-size: 50px;
+           color: white;
+       }

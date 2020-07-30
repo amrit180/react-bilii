@@ -1,0 +1,138 @@
+.content2{
+    min-height: 400px;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-top: 70px;
+    color: white;
+ 
+}
+
+
+
+.b12{
+  width: 180px;
+  height: 150px;
+  background-color:rgb(173, 44, 12);
+  left: 0;
+  top: 0;
+  position: absolute;  
+  /* line-height: 150px; */
+}
+
+.b22{
+    width: 180px;
+    height: 250px;
+    background-color:rgb(12, 173, 157);
+    left: 0;
+    top: 150px;
+    position: absolute;  
+    /* line-height: 250px; */
+  }
+  .b32{
+    width: 200px;
+    height: 250px;
+    background-color:rgb(6, 55, 128);
+    left: 180px;
+    top: 150px;
+    position: absolute;  
+    /* line-height: 150px; */
+  }
+  .b42{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(128, 6, 67);
+    left: 180px;
+    top: 0px;
+    position: absolute;  
+    /* line-height: 250px; */
+  }
+
+  .b52{
+    width: 200px;
+    height: 230px;
+    background-color:rgb(120, 6, 6);
+    left: 380px;
+    top: 0px;
+    position: absolute;  
+    /* line-height: 250px; */
+  }
+
+  .b62{
+    width: 200px;
+    height: 170px;
+    background-color:rgb(
+        156, 156, 40
+        );
+    left: 380px;
+    top: 230px;
+    position: absolute;  
+    /* line-height: 250px; */
+  }
+  @media(max-width:600px){
+    .content2{
+      width: 30%;
+    }
+    .b12,
+    .b22{
+     margin: 0;
+     left: 0;
+    }
+    .b32,
+    .b42
+    {
+     
+      left: 170px;
+    }
+    .b52,
+    .b62{
+     width:120px;
+      left:345px;
+    }
+
+  }
+
+
+  .block2{
+    text-align: center;
+    -webkit-animation: scaledown .4s ease;
+    animation: scaledown .4s linear;
+    animation-fill-mode: forwards;
+    /* transform-origin:50% 50% ; */
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.block2:hover{
+    z-index: 100;
+    -webkit-animation: scaledown .4s ease;
+    animation: scale 0.4s linear;
+    animation-fill-mode: forwards;
+    /* transform-origin:50% 50% ; */
+}
+
+@keyframes scaledown{
+0%{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+100%{
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    box-shadow:10px 10px 60px 10px rgba(0,0,0,0.3) ;
+}
+}
+
+@keyframes scale{
+    0%{
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+    100%{
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+    }
+    }

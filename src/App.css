@@ -1,4 +1,5 @@
-/* .App {
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+.App {
   text-align: center;
 }
 
@@ -15,6 +16,7 @@
 
 .App-header {
   background-color: #282c34;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -34,5 +36,39 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 12px;
+  left: 95%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: teal;
+  color: white;
+  z-index: 1;
+}
+@media (max-width: 600px) {
+  .scroll-to-top {
+    left: 85%;
+  }
+}
+.scroll-to-top .icon {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  animation: scrollTop 0.5s alternate infinite ease;
+}
+@keyframes scrollTop {
+  from {
+    transform: translateY(2px);
+  }
+  to {
+    transform: translateY(-1px);
   }
 } */

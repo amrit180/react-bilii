@@ -1,0 +1,249 @@
+.homecover {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(12, 8, 61, 0.514),
+      rgba(0, 0, 0, 0.85),
+      rgba(7, 7, 43, 0.6)
+    ),
+    url("../Image/charles-forerunner-3fPXt37X6UQ-unsplash.jpg");
+  background-color: tomato;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.fa-arrow-down {
+  color: white;
+  font-size: 3em;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  cursor: pointer;
+}
+
+.workvd {
+  position: relative;
+  top: 400px;
+  left: auto;
+  padding: 20px;
+}
+.workvd h2 {
+  font-size: 4em;
+  display: inline;
+  color: white;
+  font-weight: 400;
+}
+.ws1 {
+  padding: 0%;
+  border-bottom: dotted 1.3px rgb(32, 177, 199);
+  /* border-left: dotted 1.3px rgb(32, 177, 199); */
+}
+.ws2 {
+  padding-left: 20%;
+  border-bottom: dotted 1.3px rgb(32, 177, 199);
+  border-left: dotted 1.3px rgb(32, 177, 199);
+}
+.ws3 {
+  padding-left: 40%;
+  border-bottom: dotted 1.3px rgb(32, 177, 199);
+  border-left: dotted 1.3px rgb(32, 177, 199);
+}
+.d2 {
+  min-height: 80vh;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+}
+.d3 {
+  min-height: 80vh;
+  width: 100%;
+}
+.d4 {
+  min-height: 80vh;
+  width: 100%;
+}
+.homepara {
+  color: wheat;
+  font-size: 12px;
+  line-height: 15px;
+}
+@media (max-width: 500px) {
+  .d4,
+  .d5 {
+    min-height: auto;
+    width: 490px;
+  }
+}
+
+.d1 {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.d1 h1 {
+  font-size: 4em;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 400px) {
+  .d4,
+  .d5 {
+    width: 400px;
+  }
+  .d1 {
+    width: 400px;
+  }
+}
+
+.servicename span {
+  display: flex;
+  font-size: 2.2em;
+  border-radius: 100%;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(7, 7, 43, 0.6);
+  font-weight: 500;
+  width: max-content;
+  background-color: white;
+  box-shadow: 0 2px 0 #e0e0e0, inset 2px 0 #e0e0e0;
+  margin-top: 30px;
+  margin-left: auto;
+}
+.servicename span:hover {
+  transform: scale(1.2);
+  color: grey;
+  cursor: pointer;
+}
+
+.div2and3heading {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.servicename2 span {
+  display: flex;
+  font-size: 2.2em;
+  border-radius: 100%;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(7, 7, 43, 0.6);
+  font-weight: 500;
+  width: max-content;
+  background-color: white;
+  box-shadow: 0 2px 0 #e0e0e0, inset 2px 0 #e0e0e0;
+  margin-top: 30px;
+  margin-right: auto;
+}
+.servicename2 span:hover {
+  transform: scale(1.2);
+  color: gray;
+  cursor: pointer;
+}
+.d6 {
+  padding: 200px;
+  min-height: 80vh;
+  width: 100%;
+}
+.d6 h1 {
+  text-align: center;
+  font-size: 10em;
+  color: tomato;
+}
+
+@media (max-width: 600px) {
+  .d1 {
+    width: 490px;
+    margin: 0;
+  }
+  .d6 {
+    padding: 0;
+  }
+  .d1 h1 {
+    font-size: 2.2em;
+  }
+  .servicename span {
+    font-size: 1.6em;
+    margin-left: 0;
+  }
+  .servicename2 span {
+    margin-right: 0;
+    font-size: 1.6em;
+  }
+  .servicename2 {
+    position: relative;
+    top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    left: 0;
+    margin-left: 0;
+  }
+}
+
+.b2b {
+  color: rgb(32, 177, 199);
+}
+
+.contentvd {
+  position: relative;
+  top: 230px;
+  left: auto;
+}
+
+.contentvd h2 {
+  position: absolute;
+  color: #fff;
+  top: auto;
+  left: auto;
+  font-size: 12em;
+}
+@media (max-width: 600px) {
+  .contentvd h2 {
+    font-size: 8em;
+  }
+}
+
+.contentvd h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #03a9f4;
+}
+.contentvd h2:nth-child(2) {
+  color: #03a9f4;
+  animation: textvd 4s ease-in-out infinite;
+}
+
+@keyframes textvd {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      15% 44%,
+      32% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      16% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}

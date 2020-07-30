@@ -1,0 +1,187 @@
+.square{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .square span:nth-child(1){
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #fff;
+  border-radius: 38% 62% 37% / 41% 44% 56%;
+  transition: 0.5s;
+  animation: animate 6s linear infinite;
+  }
+  .square:hover span:nth-child(1){
+    border:none ;
+    background: rgba(112, 184, 61,.8);
+  }
+  
+  
+  .square span:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 38% 62% 37% / 41% 44% 56%;
+    transition: 0.5s;
+    animation: animate 4s linear infinite;
+    }
+    .square:hover span:nth-child(2){
+      border:none ;
+      background: rgba(112, 184, 61,.8);
+    }
+  
+    .square span:nth-child(3){
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 2px solid #fff;
+      border-radius: 38% 62% 37% / 41% 44% 56%;
+      transition: 0.5s;
+      animation: animate2 10s linear infinite;
+      }
+      .square:hover span:nth-child(3){
+        border:none ;
+        background: rgba(112, 184, 61,.8);
+      }
+  
+      @keyframes animate
+      {
+        0%{
+          transform: rotate(0deg);
+        }
+        100%{
+          transform: rotate(360deg);
+        }
+      }
+  
+      @keyframes animate2
+      {
+        0%{
+          transform: rotate(360deg);
+        }
+        100%{
+          transform: rotate(0deg);
+        }
+      }
+  
+      .content{
+        position: relative;
+        padding: 40px 60px;
+        color: #fff;
+        text-align: center;
+        transition: .5s;
+        z-index: 1000;
+      }
+  .content h2{
+    font-size: 2em;
+  }
+      .content a{
+        position: relative;
+        display: inline-block;
+        margin-top: 10px;
+        border: 2px solid #fff;
+        padding: 6px 18px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 600;
+        border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
+      }
+  
+  
+      .content a:hover{
+        background-color: #fff;
+        color: #333;
+      }
+  
+  
+      .skillLogo{
+        width: 130%;
+        height: 120%;
+        
+      }
+  
+  
+      .thirddiv{
+        height: 100vh;
+        width: 100vw;
+      }
+  
+      .textofdiv3{
+       margin-bottom: 5.5em;
+  
+      }
+      .text1div3{
+        font-size: 4em;
+        color: white;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+      }
+      #contactbutton{
+        border-radius: 10%;
+        font-size: 2em;
+  position: relative;
+  top: 40%;
+  left: 42%;
+  color:rgba(112, 184, 61,1);
+    
+      }
+  
+      #contactbutton:hover{
+  background-color: rgba(112, 184, 61,.5);
+  color:white;
+  border: 2px solid white;
+      }
+  
+      .row2{
+        margin: 30px 0;
+      }
+  
+  
+  
+      @media(max-width:600px){
+        .text1div3{
+          font-size: 2em;
+          text-align: center;
+         
+        }
+  
+        .skillLogo{
+          width: 90px;
+          height: 90px;
+          position: relative;
+          top: 20%;
+          
+        }
+  
+        #contactbutton{
+          border-radius: 10%;
+          font-size: 2em;
+    position: relative;
+    top: 40%;
+    left: 22%;
+    color:rgba(112, 184, 61,1);
+        }
+  
+  
+  .square{
+    width: 280px;
+    height: 280px;
+  }
+  
+      }

@@ -1,4 +1,4 @@
-.pics {
+.pics1 {
   top: 0;
   width: 100%;
   height: 800px;
@@ -11,12 +11,12 @@
   /* clip-path: polygon(0% 0%, 100% 0, 750px 100%, 750px 100%); */
 }
 
-.carousels {
+.carousels1 {
   position: relative;
   display: inline-block;
   text-align: center;
 }
-.carousels h1 {
+.carousels1 h1 {
   position: absolute;
   /* color: rgba(202, 137, 17); */
   color: whitesmoke;
@@ -29,7 +29,7 @@
   text-align: center;
   width: 60%;
 }
-.carousels h4 {
+.carousels1 h4 {
   position: absolute;
   color: rgb(160, 144, 54);
   z-index: 999;
@@ -41,7 +41,7 @@
   text-align: center;
   width: 60%;
 }
-.div {
+.div1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* border: tomato solid 2px; */
@@ -49,25 +49,25 @@
   padding-bottom: 50px;
   border-bottom: grey solid 1px;
 }
-.div1 {
+.div11 {
   padding: 5px;
   background-color: wheat;
   margin-right: 20px;
 }
-.div2 {
+.div22 {
   padding: 5px;
   background-color: wheat;
   margin-left: 20px;
 }
-.div1:hover {
+.div11:hover {
   padding: 15px;
   background-color: white;
 }
-.div2:hover {
+.div22:hover {
   padding: 15px;
   background-color: white;
 }
-.cards-value {
+.cards-value1 {
   padding-left: 25px;
   margin-top: 10rem;
   margin-left: 100px;
@@ -98,7 +98,7 @@
   width: 490px;
   height: 210px;
 }
-.client-grid {
+.client-grid1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -106,10 +106,10 @@
   padding-bottom: 50px;
   /* border-bottom: grey solid 1px; */
 }
-.client {
+.client11 {
   border-top: grey solid 1px;
 }
-.picss {
+.picss1 {
   margin-top: 40px;
   margin-left: 20%;
   height: 200px;
@@ -117,8 +117,8 @@
   margin-bottom: 30px;
 }
 .picsd {
-  margin-top: 40px;
-  margin-left: 40px;
+  /* margin-top: 40px;
+  margin-left: 40px; */
   height: 200px;
   width: 400px;
   margin-bottom: 30px;
@@ -128,7 +128,7 @@
   width: 100%;
 }
 
-.picture {
+.picture12 {
   height: 150px;
   width: 200px;
 }
@@ -140,11 +140,11 @@
   background-color: black;
   color: black;
 }
-.heading {
+.heading1 {
   text-align: center;
   font-size: 50px;
 }
-.contact {
+.contact1 {
   text-align: center;
 
   border-radius: 20px;
@@ -154,7 +154,7 @@
 
   margin-bottom: 50px;
 }
-.button {
+.button1 {
   position: relative;
   display: flex;
   align-items: center;
@@ -162,18 +162,18 @@
 
   /* margin-right: 100px; */
 }
-.contact h2 {
+.contact1 h2 {
   padding-top: 50px;
 }
 
 @media (min-width: 775px) and (max-width: 990px) {
-  .cards-value {
+  .cards-value1 {
     /* padding-left: 25px; */
     margin-top: 10rem;
     margin-left: 40%;
   }
 
-  .carousels h1 {
+  .carousels1 h1 {
     position: absolute;
     /* color: rgba(202, 137, 17); */
     color: whitesmoke;
@@ -186,22 +186,24 @@
     text-align: center;
     width: 60%;
   }
-  .divs {
+  .divs1 {
     margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     /* border-bottom: grey solid 1px; */
   }
-  .divs p {
+  .divs1 p {
     font-size: 20px;
   }
-  .picss {
+  .picss1 {
     border-top: grey solid 1px;
     height: 300px;
     width: 450px;
   }
-  .picss h1 {
+  .picss1 h1 {
     text-align: center;
   }
-  .picss p {
+  .picss1 p {
     text-align: center;
   }
   .picsd {
@@ -210,7 +212,7 @@
 
     padding-bottom: 30px;
   }
-  .pics {
+  .pics1 {
     top: 0;
     width: 100%;
     height: 550px;
@@ -227,7 +229,7 @@
   }
 }
 @media (max-width: 775px) {
-  .client-grid {
+  .client-grid1 {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -236,28 +238,28 @@
     border-bottom: grey solid 1px;
   }
 
-  .divs {
+  .divs1 {
     margin-bottom: 20px;
     border-bottom: grey solid 1px;
   }
-  .divs p {
+  .divs1 p {
     font-size: 15px;
   }
-  .picss {
+  .picss1 {
     height: 300px;
     width: 300px;
   }
-  .picss h1 {
+  .picss1 h1 {
     text-align: center;
   }
-  .picss p {
+  .picss1 p {
     text-align: left;
   }
   .picsd {
     /* padding-left: 40px; */
     padding-bottom: 30px;
   }
-  .pics {
+  .pics1 {
     top: 0;
     width: 100%;
     height: 400px;
@@ -269,7 +271,7 @@
     background-size: cover;
     /* clip-path: polygon(0% 0%, 100% 0, 750px 100%, 750px 100%); */
   }
-  .carousels h1 {
+  .carousels1 h1 {
     position: absolute;
     /* color: rgba(202, 137, 17); */
     color: whitesmoke;

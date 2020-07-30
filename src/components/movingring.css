@@ -1,0 +1,101 @@
+.loader{
+   position: relative;
+   
+  left: 23%;
+  margin-top: 120px;
+   width: 280px;
+   height: 280px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transform-style: preserve-3d; 
+   transform: perspective(500px) rotateX(45deg);
+}
+@media(max-width:600px){
+    .loader{
+        width: 220px;
+        left: 22%;
+        bottom: 5%;
+    }
+}
+.loader span{
+position: absolute;
+display: block;
+font-size: 32px;
+border: 12px solid black;
+box-sizing: border-box;
+border-radius: 50%;
+box-shadow: 0 10px 0 #e0e0e0, inset 10px 0 #e0e0e0;
+animation: animate 4.5s ease-in-out infinite;
+}
+
+.loader span:nth-child(1){
+    animation-delay: 0s;
+    /* border:12px solid rgb(4, 97, 92);
+    box-shadow: 0 10px 0 rgb(4, 97, 92), inset 10px 0 rgb(4, 97, 92); */
+}
+
+.loader span:nth-child(2){
+    animation-delay: 1.5s;
+    /* border:12px solid rgb(14, 97, 92);
+    box-shadow: 0 10px 0 rgb(14, 97, 92), inset 10px 0 rgb(14, 97, 92); */
+}
+
+.loader span:nth-child(3){
+    animation-delay: 3s;
+    /* border:12px solid rgb(4, 97, 92);
+    box-shadow: 0 10px 0 rgb(4, 97, 92), inset 10px 0 rgb(4, 97, 92); */
+}
+
+.loader span:nth-child(4){
+    animation-delay: 3.3s;
+    /* border:12px solid rgb(4, 97, 92);
+    box-shadow: 0 10px 0 rgb(4, 97, 92), inset 10px 0 rgb(4, 97, 92); */
+}
+
+.loader span:nth-child(5){
+    animation-delay: 3.8s;
+    /* border:12px solid rgb(4, 97, 92);
+    box-shadow: 0 10px 0 rgb(4, 97, 92), inset 10px 0 rgb(4, 97, 92); */
+}
+
+.loader span:nth-child(6){
+    animation-delay: 4.2s;
+    /* border:12px solid rgb(4, 97, 92);
+    box-shadow: 0 10px 0 rgb(4, 97, 92), inset 10px 0 rgb(4, 97, 92); */
+}
+
+.loader span:nth-child(7){
+    animation-delay: 4.5s;
+    /* border:12px solid rgb(4, 97, 92);
+    box-shadow: 0 10px 0 rgb(4, 97, 92), inset 10px 0 rgb(4, 97, 92); */
+}
+
+
+@keyframes animate{
+    0%{
+        transform: translateZ(-150px);
+        width: 100%;
+        height: 100%;
+    }
+    25%{
+        transform: translateZ(150px);
+        width: 100%;
+        height: 100%;
+    }
+    50%{
+        transform: translateZ(150px);
+        width: 35%;
+        height: 35%;
+    }
+    75%{
+        transform: translateZ(-150px);
+        width: 35%;
+        height: 35%;
+    }
+    100%{
+        transform: translateZ(-150px);
+        width: 100%;
+        height:100%;
+    }
+}

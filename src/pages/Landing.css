@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.landingpagesigleDiv {
+  min-height: 900px;
+  background-color: #000;
+}
+.land {
+  font-size: 40px;
+  color: teal;
+  font-weight: 600;
+}
+
+.landingcompanyname {
+  display: flex;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+.landingbutton {
+  position: absolute;
+  top: 65%;
+  left: 5%;
+}
+
+.landingbuttonvd {
+  color: white;
+  font-size: 25px;
+  border: 2px solid white;
+  border-style: none;
+  font-weight: 600;
+  margin: 20px;
+}
+.landingbuttonvd:hover {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 100%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.8);
+  border-style: none;
+}
+
+@media (max-width: 600px) {
+  .landingpagesigleDiv {
+    width: 590px;
+  }
+  .landingcompanyname {
+    display: flex;
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    font-size: 20px;
+    color: teal;
+    font-weight: 600;
+  }
+  .landingbuttonvd {
+    color: white;
+    font-size: 25px;
+    border: 2px solid white;
+    border-style: none;
+    font-weight: 600;
+    margin: 20px;
+  }
+  .landingbutton {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+  }
+}
